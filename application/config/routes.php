@@ -54,3 +54,13 @@ $route['Auth'] = 'AuthController';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['admin/dashboard'] = 'DashboardController';
+
+//aspirasi reses
+$route['admin/a_reses'] = 'Aspirasi_resesController';
+$route['admin/a_reses/tambah'] = 'Aspirasi_resesController/tambah_data';
+$route['admin/a_reses/edit'] = 'Aspirasi_resesController/edit_data';
+
+//aspirasi demo
+$route['admin/a_demo'] = 'Aspirasi_demoController';
+$route['admin/a_demo/tambah'] = 'Aspirasi_demoController/tambah_data';
+$route['admin/a_demo/edit'] = 'Aspirasi_demoController/edit_data';

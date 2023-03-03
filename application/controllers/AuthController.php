@@ -12,3 +12,4 @@ class AuthController extendS CI_Controller
         return $this->load->view("auth/index");
     }
 }
+?>
