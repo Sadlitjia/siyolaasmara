@@ -17,12 +17,12 @@
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
                             <h3>Tambah Aspirasi Lainnya</h3>
-                    
+
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Aspirasi Lainnya</a></li>
+                                    <li class="breadcrumb-item"><a href="<?= base_url('Aspirasi_lainnyaController/index') ?>">Aspirasi Lainnya</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Tambah</li>
                                 </ol>
                             </nav>
@@ -45,7 +45,7 @@
                                                     <div class="col-md-8 form-group">
                                                         <input type="text" id="nama" class="form-control" name="nama">
                                                     </div>
-                                                    
+
                                                     <div class="col-md-4">
                                                         <label for="tanggal">Tanggal</label>
                                                     </div>

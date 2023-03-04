@@ -2,8 +2,10 @@
     <div class="sidebar-wrapper active">
         <div class="sidebar-header position-relative">
             <div class="d-flex justify-content-between">
-                <div class="logo>
-                    <a href=" index.html"><img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" alt="Logo" class="w-75 h-75"></a>
+                <div class="logo">
+                    <a href="<?= base_url('DashboardController/index') ?>">
+                        <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" alt="Logo" class="w-75 h-75">
+                    </a>
                 </div>
                 <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
@@ -36,56 +38,56 @@
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="index.html" class='sidebar-link'>
+                    <a href="<?= base_url('DashboardController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-grid-fill"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item  ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('Aspirasi_resesController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-file-post"></i>
                         <span>Aspirasi Reses</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('Aspirasi_demoController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-file-earmark-post-fill"></i>
                         <span>Aspirasi Demo</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('Aspirasi_kunkerController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-file-post-fill"></i>
                         <span>Aspirasi Kunker</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('Aspirasi_dialogController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-file-ruled-fill"></i>
                         <span>Aspirasi Dialog Interaktif</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('Aspirasi_mandiriController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-file-earmark-post"></i>
                         <span>Aspirasi Mandiri</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('Aspirasi_lainnyaController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-file-earmark-text-fill"></i>
                         <span>Aspirasi Lainnya</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('DapilController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-map"></i>
                         <span>Dapil</span>
                     </a>

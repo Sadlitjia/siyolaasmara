@@ -17,7 +17,7 @@
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
                             <h3>Aspirasi Kunker</h3>
-                            
+
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -35,14 +35,14 @@
                             Data Aspirasi Demo
                         </div>
                         <div class="tambah_data ">
-                            <a href="" type="button" class="me-4 mb-2 btn btn-primary float-end">Tambah Data</a>
+                            <a href="<?= base_url('Aspirasi_kunkerController/tambah_data') ?>" type="button" class="me-4 mb-2 btn btn-primary float-end">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
                                 <thead>
                                     <tr>
                                         <th>Aleg</th>
-                                        <th>Lokasi</th>                                     
+                                        <th>Lokasi</th>
                                         <th>Waktu</th>
                                         <th>Aspirasi</th>
                                         <th>Dokumentasi</th>
@@ -56,9 +56,9 @@
                                         <td>Dinas PUPR</td>
                                         <td>Di Botu</td>
                                         <td>-+ 600 M</td>
-                                        <td>pembuatan</td>                                        
+                                        <td>pembuatan</td>
                                         <td>
-                                            <a href=""><span class="badge bg-warning">edit</span></a>
+                                            <a href="<?= base_url('Aspirasi_kunkerController/edit_data') ?>"><span class="badge bg-warning">edit</span></a>
                                             <a href=""><span class="badge bg-danger">hapus</span></a>
 
                                         </td>

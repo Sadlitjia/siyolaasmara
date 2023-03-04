@@ -31,7 +31,7 @@
                 <section class="section">
                     <div class="card">
                         <div class="tambah_data ">
-                            <a href="<?= base_url('') ?>" type="button" class="me-4 mt-3 btn btn-primary float-end">Tambah Data</a>
+                            <a href="<?= base_url('Aspirasi_dialogController/tambah_data') ?>" type="button" class="me-4 mt-3 btn btn-primary float-end">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
@@ -56,7 +56,7 @@
                                         <td>pembuat</td>
                                         <td>Masalah, </td>
                                         <td>
-                                            <a href=""><span class="badge bg-warning">Edit</span></a>
+                                            <a href="<?= base_url('Aspirasi_dialogController/edit_data') ?>"><span class="badge bg-warning">Edit</span></a>
                                             <a href=""><span class="badge bg-danger">Hapus</span></a>
 
                                         </td>

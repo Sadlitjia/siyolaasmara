@@ -35,7 +35,7 @@
                             Simple Datatable
                         </div>
                         <div class="tambah_data ">
-                            <a href="<?= base_url('') ?>" type="button" class="ms-4 btn btn-primary">Tambah Data</a>
+                            <a href="<?= base_url('Aspirasi_resesController/tambah_data') ?>" type="button" class="ms-4 btn btn-primary">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
@@ -60,7 +60,7 @@
                                         <td>pembuatan meluap kerumah warga</td>
                                         <td>Masalah, </td>
                                         <td>
-                                            <a href=""><span class="badge bg-warning">edit</span></a>
+                                            <a href="<?= base_url('Aspirasi_resesController/edit_data') ?>"><span class="badge bg-warning">edit</span></a>
                                             <a href=""><span class="badge bg-danger">hapus</span></a>
 
                                         </td>

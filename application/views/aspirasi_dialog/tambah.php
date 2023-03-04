@@ -21,7 +21,7 @@
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Aspirasi Dialog Interaktif</a></li>
+                                    <li class="breadcrumb-item"><a href="<?= base_url('Aspirasi_dialogController/index') ?>">Aspirasi Dialog Interaktif</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Tambah Aspirasi</li>
                                 </ol>
                             </nav>
@@ -34,7 +34,7 @@
                     <div class="row match-height">
                         <div class="col-md-12 col-12">
                             <div class="card">
-                                
+
                                 <div class="card-content">
                                     <div class="card-body ">
                                         <form class="form form-horizontal " action="" method="post">

@@ -84,3 +84,8 @@ $route['admin/a_mandiri/edit'] = 'Aspirasi_mandiriController/edit_data';
 $route['admin/a_lainnya'] = 'Aspirasi_lainnyaController';
 $route['admin/a_lainnya/tambah'] = 'Aspirasi_lainnyaController/tambah_data';
 $route['admin/a_lainnya/edit'] = 'Aspirasi_lainnyaController/edit_data';
+
+//dapil
+$route['admin/dapil'] = 'DapilController';
+$route['admin/dapil/tambah'] = 'DapilController/tambah_data';
+$route['admin/dapil/edit'] = 'DapilController/edit_data';

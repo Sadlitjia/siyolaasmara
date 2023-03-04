@@ -35,7 +35,7 @@
                             Data Aspirasi Mandiri
                         </div>
                         <div class="tambah_data ">
-                            <a href="" type="button" class="ms-4 mb-2 btn btn-primary">Tambah Data</a>
+                            <a href="<?= base_url('Aspirasi_lainnyaController/tambah_data') ?>" type="button" class="ms-4 mb-2 btn btn-primary">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
@@ -55,7 +55,7 @@
                                         <td>pembuatan</td>
                                         <td>
                                             <div class="text-center float-end ">
-                                                <a href=""><span class="badge bg-warning">Edit</span></a>
+                                                <a href="<?= base_url('Aspirasi_lainnyaController/edit_data') ?>"><span class="badge bg-warning">Edit</span></a>
                                                 <a href=""><span class="badge bg-danger">Hapus</span></a>
                                             </div>
                                         </td>
