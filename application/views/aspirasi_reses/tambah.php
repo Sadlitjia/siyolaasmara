@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body ">
-                                        <form class="form form-horizontal ">
+                                        <form class="form form-horizontal " action="" method="post">
                                             <div class="form-body ">
                                                 <div class="row">
                                                     <div class="col-md-4">

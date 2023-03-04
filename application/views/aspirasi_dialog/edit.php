@@ -17,7 +17,6 @@
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
                             <h3>Update Aspirasi Reses</h3>
-                            <p class="text-subtitle text-muted">Multiple form layouts, you can use</p>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
@@ -41,7 +40,7 @@
                                             <div class="form-body ">
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <label for="nama_aleg">Nama Aleg</label>
+                                                        <label for="nama_aleg">Aleg Pengusul</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
                                                         <input type="text" id="nama_aleg" class="form-control" name="nama_aleg">
@@ -59,25 +58,23 @@
                                                         <input type="text" id="lokasi" class="form-control" name="lokasi">
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <label for="volume">Volume</label>
+                                                        <label for="tema">Tema Dialog</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
-                                                        <input type="number" id="volume" class="form-control" name="volume">
+                                                        <input type="text" id="tema" class="form-control" name="tema">
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <label for="indikator">Indikator Kinerja</label>
+                                                        <label for="dokumentasi">Dokumentasi</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
-                                                        <input type="text" id="indikator" class="form-control" name="indikator">
+                                                        <input type="file" id="dokumentasi" class="form-control" name="dokumentasi">
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <label for="a_masyarakat">Aspirasi Masyarakat</label>
+                                                        <label for="aspirasi_dialog">Aspirasi</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
-                                                        
-                                                        <textarea class="form-control" id="a_masyarakat"></textarea>
+                                                        <input type=" text" id="aspirasi_dialog" class="form-control" name="aspirasi_dialog">
                                                     </div>
-
 
                                                     <div class="col-sm-12 d-flex justify-content-end">
                                                         <button type="submit" class="btn btn-primary me-1 mb-1">Update</button>

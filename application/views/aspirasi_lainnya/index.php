@@ -16,14 +16,14 @@
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Aspirasi Kunker</h3>
-                            
+                            <h3>Aspirasi Lainnya</h3>
+
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Aspirasi Demo</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Aspirasi Lainnya</li>
                                 </ol>
                             </nav>
                         </div>
@@ -32,35 +32,32 @@
                 <section class="section">
                     <div class="card">
                         <div class="card-header">
-                            Data Aspirasi Demo
+                            Data Aspirasi Mandiri
                         </div>
                         <div class="tambah_data ">
-                            <a href="" type="button" class="me-4 mb-2 btn btn-primary float-end">Tambah Data</a>
+                            <a href="" type="button" class="ms-4 mb-2 btn btn-primary">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
                                 <thead>
                                     <tr>
-                                        <th>Aleg</th>
-                                        <th>Lokasi</th>                                     
-                                        <th>Waktu</th>
+                                        <th>Nama</th>
+                                        <th>Tanggal</th>
                                         <th>Aspirasi</th>
-                                        <th>Dokumentasi</th>
-                                        <th>Action</th>
+                                        <th class="text-center float-end me-4">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
 
                                     <tr>
                                         <td>Agil</td>
-                                        <td>Dinas PUPR</td>
-                                        <td>Di Botu</td>
                                         <td>-+ 600 M</td>
-                                        <td>pembuatan</td>                                        
+                                        <td>pembuatan</td>
                                         <td>
-                                            <a href=""><span class="badge bg-warning">edit</span></a>
-                                            <a href=""><span class="badge bg-danger">hapus</span></a>
-
+                                            <div class="text-center float-end ">
+                                                <a href=""><span class="badge bg-warning">Edit</span></a>
+                                                <a href=""><span class="badge bg-danger">Hapus</span></a>
+                                            </div>
                                         </td>
                                     </tr>
                                 </tbody>

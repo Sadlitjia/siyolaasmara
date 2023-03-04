@@ -64,3 +64,23 @@ $route['admin/a_reses/edit'] = 'Aspirasi_resesController/edit_data';
 $route['admin/a_demo'] = 'Aspirasi_demoController';
 $route['admin/a_demo/tambah'] = 'Aspirasi_demoController/tambah_data';
 $route['admin/a_demo/edit'] = 'Aspirasi_demoController/edit_data';
+
+//aspirasi kunker
+$route['admin/a_kunker'] = 'Aspirasi_kunkerController';
+$route['admin/a_kunker/tambah'] = 'Aspirasi_kunkerController/tambah_data';
+$route['admin/a_kunker/edit'] = 'Aspirasi_kunkerController/edit_data';
+
+//aspirasi dialog
+$route['admin/a_dialog'] = 'Aspirasi_dialogController';
+$route['admin/a_dialog/tambah'] = 'Aspirasi_dialogController/tambah_data';
+$route['admin/a_dialog/edit'] = 'Aspirasi_dialogController/edit_data';
+
+//aspirasi mandiri
+$route['admin/a_mandiri'] = 'Aspirasi_mandiriController';
+$route['admin/a_mandiri/tambah'] = 'Aspirasi_mandiriController/tambah_data';
+$route['admin/a_mandiri/edit'] = 'Aspirasi_mandiriController/edit_data';
+
+//aspirasi lainnya
+$route['admin/a_lainnya'] = 'Aspirasi_lainnyaController';
+$route['admin/a_lainnya/tambah'] = 'Aspirasi_lainnyaController/tambah_data';
+$route['admin/a_lainnya/edit'] = 'Aspirasi_lainnyaController/edit_data';

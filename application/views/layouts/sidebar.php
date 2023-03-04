@@ -1,9 +1,9 @@
 <div id="sidebar" class="active">
     <div class="sidebar-wrapper active">
         <div class="sidebar-header position-relative">
-            <div class="d-flex justify-content-between align-items-center">
-                <div class="logo">
-                    <a href="index.html"><img src="<?= site_url('resource/assets/images/logo/logo.svg') ?>" alt="Logo" srcset=""></a>
+            <div class="d-flex justify-content-between">
+                <div class="logo>
+                    <a href=" index.html"><img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" alt="Logo" class="w-75 h-75"></a>
                 </div>
                 <div class="theme-toggle d-flex gap-2  align-items-center mt-2">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
@@ -26,81 +26,81 @@
                         </path>
                     </svg>
                 </div>
-                <div class="sidebar-toggler  x">
-                    <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
-                </div>
             </div>
+
         </div>
         <div class="sidebar-menu">
             <ul class="menu">
-                <li class="sidebar-title">Menu</li>
+                <li class="sidebar-title">
+                    <h4>Halaman Admin</h4>
+                </li>
 
                 <li class="sidebar-item ">
                     <a href="index.html" class='sidebar-link'>
-                        
+                        <i class="bi bi-grid-fill"></i>
                         <span>Dashboard</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item  ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-file-post"></i>
                         <span>Aspirasi Reses</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-file-earmark-post-fill"></i>
                         <span>Aspirasi Demo</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-file-post-fill"></i>
                         <span>Aspirasi Kunker</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-file-ruled-fill"></i>
                         <span>Aspirasi Dialog Interaktif</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-file-earmark-post"></i>
                         <span>Aspirasi Mandiri</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-file-earmark-text-fill"></i>
                         <span>Aspirasi Lainnya</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-map"></i>
                         <span>Dapil</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
-                        <span>Infor Aleg</span>
+                        <i class="bi bi-person-badge-fill"></i>
+                        <span>Informasi Aleg</span>
                     </a>
                 </li>
 
                 <li class="sidebar-item ">
                     <a href="#" class='sidebar-link'>
-                        
+                        <i class="bi bi-plus-square-fill"></i>
                         <span>Input Data</span>
                     </a>
                 </li>

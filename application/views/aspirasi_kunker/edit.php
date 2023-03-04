@@ -16,13 +16,13 @@
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Update Aspirasi Demo</h3>
+                            <h3>Update Aspirasi Kunker</h3>
 
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="index.html">Aspirasi Demo</a></li>
+                                    <li class="breadcrumb-item"><a href="index.html">Aspirasi Kunker</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Update</li>
                                 </ol>
                             </nav>
@@ -36,14 +36,14 @@
                             <div class="card">
                                 <div class="card-content">
                                     <div class="card-body ">
-                                        <form class="form form-horizontal ">
+                                        <form class="form form-horizontal " method="post">
                                             <div class="form-body ">
                                                 <div class="row">
                                                     <div class="col-md-4">
-                                                        <label for="aksi_demo">Aksi Demo</label>
+                                                        <label for="aleg_kunker">Aleg</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
-                                                        <input type="text" id="aksi_demo" class="form-control" name="aksi_demo">
+                                                        <input type="text" id="aleg_kunker" class="form-control" name="aleg_kunker">
                                                     </div>
                                                     <div class="col-md-4">
                                                         <label for="lokasi">Lokasi</label>
@@ -58,14 +58,20 @@
                                                         <input type="date" id="waktu" class="form-control" name="waktu">
                                                     </div>
                                                     <div class="col-md-4">
-                                                        <label for="as_demo">Aspirasi Pendemo</label>
+                                                        <label for="dokumentasi">Dokumentasi</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
-                                                        <textarea class="form-control" id="as_demo" name="as_demo"></textarea>
+                                                        <input type="file" id="dokumentasi" class="form-control" name="dokumentasi">
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <label for="as_kunker">Aspirasi</label>
+                                                    </div>
+                                                    <div class="col-md-8 form-group">
+                                                        <textarea class="form-control" id="as_kunker" name="as_kunker"></textarea>
                                                     </div>
 
                                                     <div class="col-sm-12 d-flex justify-content-end">
-                                                        <button type="submit" class="btn btn-primary me-1 mb-1">Submit</button>
+                                                        <button type="submit" class="btn btn-primary me-1 mb-1">Update</button>
                                                         <button type="reset" class="btn btn-light-secondary me-1 mb-1">Reset</button>
                                                     </div>
                                                 </div>
