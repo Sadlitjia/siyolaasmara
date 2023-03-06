@@ -32,10 +32,10 @@
                 <section class="section">
                     <div class="card">
                         <div class="card-header">
-                            Data Aspirasi Demo
+                            Data Aspirasi Kunker
                         </div>
                         <div class="tambah_data ">
-                            <a href="<?= base_url('Aspirasi_kunkerController/tambah_data') ?>" type="button" class="me-4 mb-2 btn btn-primary float-end">Tambah Data</a>
+                            <a href="<?= base_url('Aspirasi_kunkerController/tambah_data') ?>" type="button" class="ms-4 mb-2 btn btn-primary">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">

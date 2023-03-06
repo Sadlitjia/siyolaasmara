@@ -6,23 +6,19 @@
     <div class="app" id="app">
         <?php $this->load->view('layouts/sidebar') ?>
         <div id="main">
-            <header class="mb-3">
-                <a href="#" class="burger-btn d-block d-xl-none">
-                    <i class="bi bi-justify fs-3"></i>
-                </a>
-            </header>
 
             <div class="page-heading">
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Aspirasi Reses</h3>
+                            <h3>Informasi Aleg</h3>
+
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">Aspirasi Reses</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Informasi Aleg</li>
                                 </ol>
                             </nav>
                         </div>
@@ -30,36 +26,27 @@
                 </div>
                 <section class="section">
                     <div class="card">
-                        
-                        <div class="tambah_data mt-3">
-                            <a href="<?= base_url('Aspirasi_resesController/tambah_data') ?>" type="button" class="ms-4 btn btn-primary">Tambah Data</a>
+                        <div class="tambah_data mt-4">
+                            <a href="<?= base_url('InfoalegController/tambah_data') ?>" type="button" class="ms-4 btn btn-primary">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
                                 <thead>
                                     <tr>
-                                        <th>Aleg</th>
-                                        <th>Perangkat Daerah</th>
-                                        <th>Lokasi</th>
-                                        <th>Volume</th>
-                                        <th>Indikator</th>
-                                        <th>Aspirasi</th>
-                                        <th>Action</th>
+                                        <th>Nama</th>
+                                        <th>Dapil</th>
+                                        <th class="text-center">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-
                                     <tr>
-                                        <td>Agil</td>
-                                        <td>Dinas PUPR</td>
-                                        <td>Di Botu</td>
-                                        <td>-+ 600 M</td>
-                                        <td>pembuatan meluap kerumah warga</td>
-                                        <td>Masalah, </td>
-                                        <td>
-                                            <a href="<?= base_url('Aspirasi_resesController/edit_data') ?>"><span class="badge bg-warning">edit</span></a>
-                                            <a href=""><span class="badge bg-danger">hapus</span></a>
-
+                                        <td><a href="">Agil</a></td>
+                                        <td><a href="">asdgj</a> </td>
+                                        <td class="text-center">
+                                            <div>
+                                                <a href="<?= base_url('InfoalegController/edit_data') ?>"><span class="badge bg-warning">Edit</span></a>
+                                                <a href=""><span class="badge bg-danger">Hapus</span></a>
+                                            </div>
                                         </td>
                                     </tr>
                                 </tbody>

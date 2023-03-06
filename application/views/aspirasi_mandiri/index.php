@@ -44,7 +44,7 @@
                                         <th>Nama</th>
                                         <th>Tanggal</th>
                                         <th>Aspirasi</th>
-                                        <th class="text-center float-end me-4">Action</th>
+                                        <th class="text-center">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>

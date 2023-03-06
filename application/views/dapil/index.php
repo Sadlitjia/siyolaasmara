@@ -20,39 +20,39 @@
                     <div class="col-12 col-lg-12 justify-content-between">
                         <div class="row">
                             <div class="card w-25 me-4 mh-100">
-                                <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" class="card-img-top" alt="...">
+                                <img src="<?= site_url('resource/assets/images/logo/taruna.jpg') ?>" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
                                     <a href="">Kota Gorontalo </a>
                                 </div>
                             </div>
                             <div class="card w-25 me-4 mh-100">
-                                <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" class="card-img-top" alt="...">
+                                <img src="<?= site_url('resource/assets/images/logo/menara.jpeg') ?>" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <a href="">Kabupaten Bone Bolango </a>
+                                    <a href="">Kabupaten Gorontalo A</a>
                                 </div>
                             </div>
                             <div class="card w-25 me-4 mh-100">
-                                <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" class="card-img-top" alt="...">
+                                <img src="<?= site_url('resource/assets/images/logo/taman.jpeg') ?>" class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <a href="">Kabupaten Gorontalo B</a>
+                                </div>
+                            </div>
+                            <div class="card w-25 me-4 mh-100">
+                                <img src="<?= site_url('resource/assets/images/logo/gorut.jpeg') ?>" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
                                     <a href="">Kabupaten Gorontalo Utara</a>
                                 </div>
                             </div>
                             <div class="card w-25 me-4 mh-100">
-                                <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" class="card-img-top" alt="...">
+                                <img src="<?= site_url('resource/assets/images/logo/bonebol.jpeg') ?>" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <a href="">Kabupaten Gorontalo</a>
+                                    <a href="">Kabupaten Bone Bolango</a>
                                 </div>
                             </div>
                             <div class="card w-25 me-4 mh-100">
-                                <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" class="card-img-top" alt="...">
+                                <img src="<?= site_url('resource/assets/images/logo/boalemo.jpeg') ?>" class="card-img-top" alt="...">
                                 <div class="card-body text-center">
-                                    <a href="">Kabupaten Pohuwato</a>
-                                </div>
-                            </div>
-                            <div class="card w-25 me-4 mh-100">
-                                <img src="<?= site_url('resource/assets/images/logo/logo.png') ?>" class="card-img-top" alt="...">
-                                <div class="card-body text-center">
-                                    <a href="">Kabupaten Boalemo</a>
+                                    <a href="">Kabupaten Boalemo - Pohuwato</a>
                                 </div>
                             </div>
 

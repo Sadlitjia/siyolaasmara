@@ -43,12 +43,33 @@
                                         <form class="form form-horizontal " action="" method="post">
                                             <div class="form-body ">
                                                 <div class="row">
+
+                                                    <div class="col-md-4">
+                                                        <label for="dapil">Dapil</label>
+                                                    </div>
+                                                    <div class="col-md-8 form-group">
+                                                        <select class="form-select" id="dapil" name="dapil" aria-label="Default select example">
+                                                            <option selected>Pilih Dapil</option>
+                                                            <option value="kota">Kota Gorontalo</option>
+                                                            <option value="gorontalo_a">Kabupaten Gorontalo A</option>
+                                                            <option value="gorontalo_b">Kabupaten Gorontalo B</option>
+                                                            <option value="gorut">Kabupaten Gorontalo Utara</option>
+                                                            <option value="bonebol">Kabupaten Bone Bolango</option>
+                                                            <option value="boalemo">Kabupaten Boalemo-Pohuwato</option>
+                                                        </select>
+                                                    </div>
                                                     <div class="col-md-4">
                                                         <label for="nama_aleg">Nama Aleg</label>
                                                     </div>
                                                     <div class="col-md-8 form-group">
-                                                        <input type="text" id="nama_aleg" class="form-control" name="nama_aleg">
+                                                        <select class="form-select" id="nama_aleg" name="nama_aleg" aria-label="Default select example">
+                                                            <option selected>Pilih Aleg</option>
+                                                            <option value="kota">Kota Gorontalo</option>
+                                                            <option value="gorontalo_a">Kabupaten Gorontalo A</option>
+
+                                                        </select>
                                                     </div>
+
                                                     <div class="col-md-4">
                                                         <label for="perangkat_daerah">Perangkat Daerah</label>
                                                     </div>

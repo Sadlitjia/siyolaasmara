@@ -94,16 +94,9 @@
                 </li>
 
                 <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
+                    <a href="<?= base_url('InfoalegController/index') ?>" class='sidebar-link'>
                         <i class="bi bi-person-badge-fill"></i>
                         <span>Informasi Aleg</span>
-                    </a>
-                </li>
-
-                <li class="sidebar-item ">
-                    <a href="#" class='sidebar-link'>
-                        <i class="bi bi-plus-square-fill"></i>
-                        <span>Input Data</span>
                     </a>
                 </li>
             </ul>

@@ -55,7 +55,7 @@
                                         <td>Dinas PUPR</td>
                                         <td>Di Botu</td>
                                         <td>-+ 600 M</td>
-                                        <td>pembuatan</td>
+                                        
                                         <td>
                                             <a href="<?= base_url('Aspirasi_demoController/edit_data') ?>"><span class="badge bg-warning">Edit</span></a>
                                             <a href=""><span class="badge bg-danger">hapus</span></a>

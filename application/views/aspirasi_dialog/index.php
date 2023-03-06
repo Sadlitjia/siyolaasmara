@@ -30,8 +30,11 @@
                 </div>
                 <section class="section">
                     <div class="card">
+                        <div class="card-header">
+                            Data Aspirasi Dialog Interaktif
+                        </div>
                         <div class="tambah_data ">
-                            <a href="<?= base_url('Aspirasi_dialogController/tambah_data') ?>" type="button" class="me-4 mt-3 btn btn-primary float-end">Tambah Data</a>
+                            <a href="<?= base_url('Aspirasi_dialogController/tambah_data') ?>" type="button" class="ms-4 mt-3 btn btn-primary">Tambah Data</a>
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">
